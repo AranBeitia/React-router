@@ -254,8 +254,8 @@ class App extends Component {
             />
           )}
         />
-        <Route path="./new-product" exact render={(routeProps) => (
-          <NewProduct 
+        <Route path="/new-product" exact render={(routeProps) => (
+          <NewProduct
             {...routeProps}
             saveNewProduct={this.saveNewProduct}
           />
